@@ -1,0 +1,103 @@
+.mainTodo {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(42, 88, 114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .menuTodo {
+        width: 40%;
+        height: 85%;
+        background-color: white;
+        padding: 1.5rem;
+        border-radius: 10px;
+        overflow-y: none;
+        .bodyTodo {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+            .topEdit {
+                display: flex;
+                width: 100%;
+                height: 20%;
+                align-items: center;
+                justify-content: space-between;
+                .inputSty {
+                    width: 75%;
+                    height: 60%;
+                    border: solid rgb(80, 80, 247) 2px;
+                    border-radius: 5px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: medium;
+                }
+                .btn {
+                    width: 20%;
+                    height: 60%;
+                    background-color: rgb(80, 80, 247);
+                    border-radius: 5px;
+                    border: none;
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                    font-size: medium;
+                }
+
+            }
+            .mainLi {
+                width: 100%;
+                height: 70%;
+                overflow-y: auto;
+                .menuLi {
+                    list-style: none;
+                    width: 100%;
+                    height: 20%;
+                    background-color: rgb(188, 230, 248);
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    display: flex;
+                    gap: 20px;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: medium;
+                    padding: 5px;
+                    border-radius: 5px;
+                    border: solid silver 2px;
+                    .mainWrap {
+                        display: flex;
+                        gap: 10px;
+                    }
+                    .delectBtn {
+                        width: 45px;
+                        height: 45px;
+                        border-radius: 5px;
+                        border: none;
+                        background-color: rgb(15, 15, 245);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 6px;
+                        .imgSide {
+                            width: 25px;
+                        }
+                    }
+                    .editBtn {
+                        width: 45px;
+                        height: 45px;
+                        border-radius: 5px;
+                        border: none;
+                        background-color: aliceblue;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .imgSide1 {
+                            width: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
